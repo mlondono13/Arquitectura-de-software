@@ -2,9 +2,9 @@
     include("conectar_bd.php");
 
     if(isset($_POST["register"])){
-        if(strlen($_POST['name']>=1)){
-            $name = $_POST['name'];
-            $consulta = "INSERT INTO Registro(nombre) VALUES ('$name')";
+        if(strlen($_POST['nombre']>=1)){
+            $nombre = $_POST['nombre'];
+            $consulta = "INSERT INTO Registro(nombre) VALUES ('$nombre')";
             $resultado = mysqli_query($conectar,$consulta);
             if ($resultado) {
                 ?>

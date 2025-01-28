@@ -7,8 +7,8 @@
 <body>
     <form method="post">
     	<h1>Ingresa tu nombre</h1>
-    	<input type="text" name="name" placeholder="Nombre completo">
-    	<input type="submit" name="register" value="Registrar">
+    	<input type="text" name="nombre" placeholder="Nombre completo">
+    	<input type="submit" name="registrar" value="Registrar">
     </form>
     <?php 
     include("registrar.php");
